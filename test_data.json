@@ -1,0 +1,52 @@
+{
+    "base_url": "QE-index.html",
+    "selectors": {
+      "test_1": {
+        "email_input": "inputEmail",
+        "password_input": "inputPassword",
+        "login_button": "//button[contains(text(), 'Sign in')]"
+      },
+      "test_2": {
+        "list_items": "//*[@id='test-2-div']//li",
+        "badge_class": "badge"
+      },
+      "test_3": {
+        "dropdown_button": "dropdownMenuButton",
+        "dropdown_option": "//*[@id='test-3-div']//a[text()='{}']"
+      },
+      "test_4": {
+        "first_button": "//*[@id='test-4-div']//button[1]",
+        "second_button": "//*[@id='test-4-div']//button[2]"
+      },
+      "test_5": {
+        "test_5_div": "test-5-div",
+        "button": "test5-button",
+        "success_alert": "test5-alert"
+      },
+      "test_6": {
+        "grid_table": "//*[@id='test-6-div']//table"
+      }
+    },
+    "test_1": {
+      "email": "test@example.com",
+      "password": "password"
+    },
+    "test_2": {
+      "expected_list_count": 3,
+      "second_item_text": "List Item 2",
+      "second_item_badge": "6"
+    },
+    "test_3": {
+      "default_option": "Option 1",
+      "new_option": "Option 3"
+    },
+    "test_4": {
+      "first_button_enabled": true,
+      "second_button_enabled": false
+    },
+    "test_6": {
+      "cell_coordinates": [2, 2],
+      "expected_cell_value": "Ventosanzap"
+    }
+  }
+  
