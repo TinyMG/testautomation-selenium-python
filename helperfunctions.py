@@ -40,7 +40,7 @@ class BrowserHelpers:
 
     def scroll_to_element(self, element):
         """Scroll the page to bring the element into view."""
-        logging.info(f"TTTScrolling to element: {element.tag_name}")
+        logging.info(f"Scrolling to element: {element.tag_name}")
         self.driver.execute_script("arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });", element)
         logging.info("Scrolled to element successfully.")
 
